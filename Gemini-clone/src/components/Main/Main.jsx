@@ -14,7 +14,7 @@ const Main = () => {
             <p>How can I help you today?</p>
         </div>
         <div className="cards">
-            <div className="card">
+            <div className="card"> 
                 <p>suggest beautiful places to see on an upcomming road</p>
                 <img src={assets.compass_icon} alt="" />
             </div>
@@ -30,6 +30,19 @@ const Main = () => {
                 <p>improve the readability of following code</p>
                 <img src={assets.code_icon} alt="" />
             </div>
+        </div>
+        <div className="main-bottom">
+          <div className="search-box">
+            <input type="text"placeholder='Enter a prompt here' />
+            <div>
+              <img src={assets.gallery_icon} alt="" />
+              <img src={assets.mic_icon} alt="" />
+              <img src={assets.send_icon} alt="" />
+            </div>
+          </div>
+          <p className="bottom-info">
+           Gemini may display inacurate info, includingabout people,so double-check its responses.Your privacy and Gemini Apps 
+          </p>
         </div>
       </div>
     </div>
