@@ -41,7 +41,7 @@ const Main = () => {
             </div>
           </div>
           <p className="bottom-info">
-           Gemini may display inacurate info, includingabout people,so double-check its responses.Your privacy and Gemini Apps 
+           Gemini may display inacurate info, including about people,so double-check its responses.Your privacy and Gemini Apps 
           </p>
         </div>
       </div>
